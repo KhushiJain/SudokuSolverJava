@@ -23,3 +23,9 @@ $ java -cp target/sudoku-solver-1.0-SNAPSHOT.jar src.main.java.com.sudoku_solver
 ```
 
 Solution would be written to a text file called "solution.txt"
+
+### Time complexity
+For every unassigned index, there are 9 possible options so the time complexity is `O(9^(n*n))`.
+
+### Space complexity
+`O(9*9)` to store the output of matrix.
